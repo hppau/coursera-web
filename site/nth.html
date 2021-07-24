@@ -5,64 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nothing's Here</title>
+    <link rel = "stylesheet" href="nthcss.css">
     <style>
-        #header{
-            background-color:lavender;
-            color:saddlebrown;
-            border-radius: 40px;
-            text-align: center;
-        }
         #des{
-            background-color: aquamarine;
-            color:brown;
-            text-align:center;
-        }
-        body{
-            background-color: rgb(172, 195, 238);
+            background-color:rgba(77, 41, 27, 0.582);
             color:black;
+            text-align:center;
+            padding-bottom: 30px;
+        }
+        .main-nav li{
+            display: inline-block;
+            padding: 20px;
+        }
+        a{
+            color: black;
+            font-size:20px;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header id = "header">
-    <h1><span>Welcome To My Noob Web!Are you new here? Check out some lame web deco here!</span></h1><br>
+        <nav>
+            <ul class = "main-nav">
+                <li><a href = "index.html" target = "_blank">Home Page</a></li>
+                <li><a href = "index.html" target = "_blank">Resources</a></li>
+                <li><a href = "index.html" target = "_blank">Product Recommendation</a></li>
+                <li><a href = "index.html" target = "_blank">More</a></li>
+            </ul>
+        </nav>
+    <h1 ><span id = "title">Things to do instead of scrolling</span></h1><br>
     </header>
-    <section id = "des">
-        <h2>About This Page &amp; &lt; Description &gt;</h2>
-        <h3>If you are wondering what this page is about it's just one of my test pages which will later become a really&nbsp; cool&nbsp; one.</h3>
-        You may properly find some of the completely random contents from the different fields.<br>
-        If you are okay with it... Then let's keep scrolling.<a href = "index.html" target = "_blank">Just incase if you wanna see more of my pages</a>
-        <hr>
-    </section>
-    <section id = "about">
-        <h2>This page may cover about...</h2>
-        <ul>
-            <li>Anime</li>
-            <li>Kpop</li>
-            <li>Glass Painting and crafting
-                <ol id = "art">
-                    <li><a href = "#arcylic">Acrylic painting on shoes and glass</a></li>
-                    <li><a href = "#Watercolor">Water color painting</a></li>
-                    <li><a href = "#Cd painting">Cd painting and decorating</a></li>
-                    <li><a href = "#Resin">Resin and crafting</a></li>
-                </ol>
-            </li>
-            <li>Room deco
-                <ol id = "deco">
-                    <li><a href = "#Bedroom">Bedroom deco</a></li>
-                    <li><a href = "#Workspace">Workspace deco</a></li>
-                    <li><a href = "#Planting">Planting</a></li>
-                </ol>
-            </li>
-        </ul>
-    </section><br>
-    <section id = "acrylic">
-        <h1>Acrylis painting on shoes and glass</h1>
-        <h2>Acrylis is a painting medium used on canvas,glass,clothes,shoes, and other materials.They are quite durable and permanent.</h2>
-    </section>
-    <section id = "Watercolor">
-        <h1>Water color painting</h1>
-        <h2>Water color is the most famaliar art medium to most people.We used ready-made watercolor pigments with water to paint on watercolor blocks.</h2>
-    </section>
+    <div id = "mainbody">
+        <section id = "des">
+            <h2>About This Page &amp; &lt; Description &gt;</h2>
+            <h3>If you are wondering what this page is about it's just one of my test pages which will later become a really&nbsp; cool&nbsp; one.</h3>
+            You may properly find some of the completely random contents from the different fields.<br>
+            If you are okay with it... Then let's keep scrolling.<a href = "index.html" target = "_blank">Just incase if you wanna see more of my pages</a>
+        </section>
+        <section id = "about">
+            <hr>
+            <h2>This page may cover about...</h2>
+            <ul>
+                <li>Anime</li>
+                <li>Kpop</li>
+                <li id = "art">Glass Painting and crafting
+                    <ol>
+                        <br>
+                        <li><a href = "#arcylic">Acrylic painting on shoes and glass</a></li>
+                        <li><a href = "#Watercolor">Water color painting</a></li>
+                        <li><a href = "#Cd painting">Cd painting and decorating</a></li>
+                        <li><a href = "#Resin">Resin and crafting</a></li>
+                    </ol>
+                </li>
+                <li>Room deco
+                    <ol id = "deco">
+                        <li><a href = "#Bedroom">Bedroom deco</a></li>
+                        <li><a href = "#Workspace">Workspace deco</a></li>
+                        <li><a href = "#Planting">Planting</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </section><br>
+        <section id = "acrylic">
+            <h1>Acrylis painting on shoes and glass</h1>
+            <h2>Acrylis is a painting medium used on canvas,glass,clothes,shoes, and other materials.They are quite durable and permanent.</h2>
+        </section>
+        <section id = "Watercolor">
+            <h1>Water color painting</h1>
+            <h2>Water color is the most famaliar art medium to most people.We used ready-made watercolor pigments with water to paint on watercolor blocks.</h2>
+        </section>
+    </div>
 </body>
 </html>
