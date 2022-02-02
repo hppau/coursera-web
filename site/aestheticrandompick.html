@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Random Picker</title>
+    <link rel="stylesheet" href="aestheticrandompick.css">
+</head>
+<body>
+    <h2 id = "heading">Aesthetic Random Picker</h2>
+    <div id = header>
+        <button class="button"><h3>Home</h3></button><br>
+        <button class="button" onclick="overallchange()"><h3>Overalltheme</h3></button><br>
+        <button class="button" onclick= "skincolorchange()"><h3>Skin color</h3></button><br>
+        <button class="button" onclick = "eyecolorchange()"><h3>Eye color</h3></button><br>
+        <button class="button" onclick = "haircolorchange()"><h3>Hair color</h3></button><br>
+        <button class="button" onclick = "stylechange()"><h3>Style</h3></button><br>
+        <button class="button" onclick = "accessorieschange()"><h3>Accessories</h3></button><br>
+    </div>
+    <div id = spin>
+        <div id = "first"></div>
+        <div id = "second"></div>
+        <div id = "third"></div>
+    </div>
+    <div id = result>
+    </div>
+    <div id = "overalltheme">
+        <div id = "skin color"></div>
+        <div id = "eye color"></div>
+        <div id = "hair color"></div>
+        <div id = "style"></div>
+        <div id = "accessories"></div>
+    </div>    
+    <button id = "random" value= "RANDOM" onclick="random()"><h2>RANDOM</h2></button>
+</body>
+<script src="aestheticrandompick.js"></script>
+</html>

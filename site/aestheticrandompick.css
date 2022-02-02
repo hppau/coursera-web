@@ -1,0 +1,82 @@
+body{
+    background-color:rosybrown;
+}
+#heading{
+    position: absolute;
+    width:540px;
+    left:408px;
+    top:4px;
+    color:whitesmoke;
+    background-color:hsl(120, 93%, 79%,0.5);
+    padding:13px;
+    text-indent: 200px;
+    font-style: italic;
+}
+#spin{
+    width:400px;
+    height: 180px;
+    background-color:hsl(120, 93%, 79%,0.5);
+    color:black;
+    position:absolute;
+    left:580px;
+    top:100px;
+}
+#first{
+    width:120px;
+    height:150px;
+    background-color:palegoldenrod;
+    position:inherit;
+    margin:10px;
+    display: inline;
+}
+#second{
+    width:120px;
+    height:150px;
+    background-color: palegoldenrod;
+    position:inherit;
+    left:140px;
+    top:10px;
+    display:inline;
+}
+#third{
+    width:120px;
+    height:150px;
+    background-color: palegoldenrod;
+    position:inherit;
+    left:270px;
+    top:10px;
+    display:inline;
+}
+#result{
+    width:400px;
+    height: 200px;
+    background-color: whitesmoke;
+    color:black;
+    position:absolute;
+    left:580px;
+    top:300px;
+}
+#header{
+    background-color:hsl(120, 93%, 79%,0.5);
+    height:530px ;
+    width:130px;
+    position:relative;
+    top:70px;
+    left:400px;
+    padding:10px;
+    display:block;
+}
+.button{
+    color:rosybrown;
+    background-color:hsl(120, 93%, 79%,0.8);
+    padding:10px;
+}
+#random{
+    color: rosybrown;
+    background-color:hsl(120, 93%, 79%,0.8);
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top:520px;
+    left:830px;
+}
