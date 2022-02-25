@@ -1,0 +1,60 @@
+.container{
+    width: 500px;
+    margin:auto;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 1px;
+}
+.info{
+    text-align: center;
+}
+.personalinfo{
+    text-align: center;
+    line-height: 10px;
+    padding-block: 20px;
+}
+.linkedin{
+    margin-left: 20px;
+    width:160px;
+    border-color:rgb(241, 31, 77);
+    background-color:black;
+    height:40px;
+    border-radius: 0.3rem;
+    color:rgb(240, 6, 57);
+    font-size:large;
+    text-shadow:0 0 0.130rem rgb(231, 77, 77),
+     0 0 0.25rem currentColor;
+    box-shadow: 0 0 1rem currentColor,0 0 2rem rgb(143, 66, 89);
+    letter-spacing:1px ;
+    font-family: 'Shizuru', cursive;
+}
+.email{
+    margin-right: 30px;
+    width:160px;
+    border-color:rgb(31, 199, 241);
+    background-color:black;
+    height:40px;
+    border-radius: 0.3rem;
+    color:rgb(31, 199, 241);
+    font-size:large;
+    text-shadow:0 0 0.130rem rgb(113, 212, 241),
+     0 0 0.25rem currentColor;
+    box-shadow: 0 0 1rem currentColor,0 0 2rem rgb(66, 121, 143);
+    letter-spacing: 1px;
+    font-family: 'Shizuru', cursive;
+}
+.about{
+    text-align: left;
+    margin-left:65px;
+    max-width: 370px;
+    padding-block: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 30px;
+}
